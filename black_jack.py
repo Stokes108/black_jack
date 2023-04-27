@@ -85,6 +85,11 @@ def inital_deal(dealer, human_player):
     dealer.create_deck()
 
     dealer.hand = dealer.cards[-2:]
+    dealer.cards.pop()
+    dealer.cards.pop()
+
+
+
     card1 = dealer.cards.pop()
     card2 = dealer.cards.pop()
 
